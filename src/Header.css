@@ -1,0 +1,45 @@
+.profile-pic {
+  position: relative;
+  left: 20px;
+  width: 200px;
+  height: 180px;
+  border-radius: 40px;
+  border: solid 1px blanchedalmond;
+  box-shadow: 5px 5px 10px;
+  padding: 2px;
+}
+
+.profile-name{
+  position: relative;
+  left:20px;
+}
+
+.header-buttons {
+  position: relative;
+  margin-top: 30px;
+  width: 150px;
+  height: 25px;
+  background-color: rgb(99, 131, 163);
+  box-shadow: 3px 3px 10px;
+  border-radius: 5px;
+  left: 40px;
+  font-weight: bold;
+}
+
+.settings-btn {
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+}
+
+button{
+  width: 150px;
+  height: 29px;
+  background-color: rgb(99, 131, 163);
+  border-radius: 5px;
+}
+
+.smal{
+  font-size: 20px;
+  opacity: 0.1;
+}

@@ -1,0 +1,76 @@
+.footer {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #5385b8;
+  right: 79px;
+  bottom: 2px;
+  clip-path: ellipse(49% 40% at 65% 21%);
+}
+.design1 {
+  position: relative;
+  width: 30px;
+  height: 15px;
+  border-radius: 40%;
+  background-color: white;
+  left: 180px;
+  top: 45px;
+  background-color: tomato;
+}
+.design2 {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  left: 200px;
+  top: -10px;
+  background-color: violet;
+}
+
+.logo-name {
+  position: relative;
+  right: 35px;
+  bottom: 140px;
+  font-weight: bold;
+  font-size: 21px;
+  color: darkblue;
+}
+
+.format {
+  width: 300px;
+  margin-bottom: 50px;
+
+  margin-right: 20px;
+
+  background-color: rgb(99, 131, 163);
+  font-weight: 700;
+  text-align: center;
+}
+
+.copyright {
+  position: relative;
+  font-weight: bold;
+  font-size: 15px;
+  left: 0px;
+  top: 260px;
+}
+
+.header-buttons {
+  width: 150px;
+  height: -10px;
+  background-color: rgb(99, 131, 163);
+  box-shadow: 3px 3px 10px;
+  border-radius: 5px;
+  left: 40px;
+  font-weight: bold;
+}
+
+.button {
+  width: 200px;
+  height: 25px;
+
+  background-color: rgb(99, 131, 163);
+  box-shadow: 3px 3px 10px;
+  border-radius: 5px;
+}

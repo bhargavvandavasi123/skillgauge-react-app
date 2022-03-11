@@ -1,0 +1,13 @@
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+ 
+ border-color:silver;
+ margin: 0 auto;
+border:3px solid #ccc;
+padding: 1px;
+margin-bottom: 5px;
+}
+

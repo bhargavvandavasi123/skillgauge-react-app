@@ -1,0 +1,18 @@
+.backgroundd{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(237, 241, 245);
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px;
+    opacity: 0.8;
+    padding: 10px;
+    overflow-y:scroll;
+    text-align: justify;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:rgb(59, 170, 235); 
+  }

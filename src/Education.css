@@ -1,0 +1,49 @@
+.item-a {
+  grid-area: image;
+  width: 200px;
+  height: 150px;
+  border-radius: 50px;
+  justify-self: flex-end;
+  padding-right: 10px;
+  opacity: 0.6;
+}
+
+
+.item-b {
+  grid-area: type;
+ 
+  font-weight: bold;
+  color: rgb(235, 210, 210);
+  padding-top: 25px;
+  justify-self:flex-start ;
+}
+
+.item-c {
+  grid-area: uni;
+  
+  font-weight: bold;
+  color: rgb(235, 210, 210);
+  justify-self:flex-start ;
+}
+
+.item-d {
+  grid-area: years;
+  
+  font-weight: bold;
+  color: rgb(235, 210, 210);
+  justify-self:flex-start ;
+}
+
+.container1 {
+  padding-left: 70px;
+    padding-right: 150px;
+   padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto 389px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "image image type"
+    "image image uni"
+    "image image years";
+    justify-self:flex-start ;
+}
